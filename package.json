@@ -10,6 +10,8 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "eslint": "^10.3.0"
+    "eslint": "^10.3.0",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2"
   }
 }
