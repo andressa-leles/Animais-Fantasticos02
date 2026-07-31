@@ -1,9 +1,7 @@
 export default class ScrollSuave {
   constructor(links, options) {
     this.linksInternos = document.querySelectorAll(links);
-
     if (options === undefined) {
-      // 3. Corrigido de 'undefinded' para 'undefined'
       this.options = { behavior: "smooth", block: "start" };
     } else {
       this.options = options;
@@ -29,7 +27,6 @@ export default class ScrollSuave {
     if (this.linksInternos.length) {
       this.addLinkEvent();
     }
-
     return this;
   }
 }
